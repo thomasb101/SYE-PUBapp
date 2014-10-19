@@ -1,0 +1,62 @@
+Users
+
+_id
+username
+email
+password
+name
+
+orders
+
+_id
+user id
+time_in
+time_out
+order
+cost
+
+food_types
+
+Breakfast
+	item_name
+	cost
+	ingrediants
+Grill
+	item_name
+	cost
+	ingrediants	
+Fryer
+	item_name
+	cost
+	ingrediants
+Wraps
+	item_name
+	cost
+	ingrediants
+Quesadilla
+	item_name
+	cost
+	ingrediants
+Pizza
+	item_name
+	cost
+	ingrediants
+Deli
+	Bread
+	Cheese
+	meat
+	condiments
+	vegetables
+	preconfigured
+
+
+
+order object
+
+JSONObject compiled for order
+
+
+Foreign key constraints
+each foodtype corrisponds with a table at a higher level
+user id in orders refers to id in users
+order in orders refers to Json Object order
