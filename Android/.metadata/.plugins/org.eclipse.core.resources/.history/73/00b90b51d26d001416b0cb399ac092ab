@@ -1,0 +1,14 @@
+package com.amal.SYE_PUB;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class Catagories extends Activity {
+	
+	@Override
+	//onCreate manages functions that start when activity launches
+	protected void onCreate(Bundle savedInstanceState) {
+		
+	}
+	
+}
